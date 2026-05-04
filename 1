@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luxe Lens Editorial Photography | Senior Portraits &amp; Prom Photography NJ</title>
+  <meta name="description" content="Award-winning editorial photography in New Jersey. Senior portraits, prom photography, and graduation sessions for discerning students and parents.">
+  <meta name="keywords" content="senior photography NJ, prom photoshoot New Jersey, college graduation photos NJ, editorial portraits">
+  <link href="https://cdn.tailwindcss.com/3.4.17" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+  <script src="/_sdk/element_sdk.js"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { height: 100%; width: 100%; }
+    
+    body {
+      font-family: 'Crimson Text', 'Georgia', serif;
+      background-color: #1a1a1a;
+      color: #f5f1ed;
+    }
+    
+    .luxury-serif { font-family: 'Crimson Text', 'Georgia', serif; }
+    .luxury-sans { font-family: 'Trebuchet MS', sans-serif; letter-spacing: 0.08em; }
+    
+    .gold-accent { color: #c9a961; }
+    .nude-pink { color: #d4a5a0; }
+    .ivory { color: #f5f1ed; }
+    
+    .gradient-gold { background: linear-gradient(135deg, #c9a961 0%, #d4a5a0 100%); }
+    .gradient-dark { background: linear-gradient(180deg, #1a1a1a 0%, #0f0f0f 100%); }
+    
+    /* Smooth scrolling animations */
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    
+    .animate-fade-in-up { animation: fadeInUp 0.8s ease-out forwards; }
+    .animate-fade-in { animation: fadeIn 0.6s ease-out forwards; }
+    
+    .stagger-1 { animation-delay: 0.1s; }
+    .stagger-2 { animation-delay: 0.2s; }
+    .stagger-3 { animation-delay: 0.3s; }
+    
+    /* Luxury button */
+    .luxury-btn {
+      position: relative;
+      background: #c9a961;
+      color: #1a1a1a;
+      padding: 14px 32px;
+      border: none;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      font-family: 'Trebuchet MS', sans-serif;
+    }
+    
+    .luxury-btn:hover {
+      background: #d4a5a0;
+      transform: translateY(-2px);
+      box-shadow: 0 12px 24px rgba(201, 169, 97, 0.3);
+    }
+    
+    .luxury-btn-outlined {
+      background: transparent;
+      color: #c9a961;
+      border: 2px solid #c9a961;
+      transition: all 0.3s ease;
+    }
+    
+    .luxury-btn-outlined:hover {
+      background: #c9a961;
+      color: #1a1a1a;
+    }
+    
+    /* Section divider */
+    .divider-luxury { 
+      height: 1px; 
+      background: linear-gradient(90deg, transparent, #c9a961, transparent);
+      margin: 4rem 0;
+    }
+    
+    /* Hero image area - elegant placeholder */
+    .hero-visual {
+      position: relative;
+      background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%);
+      border: 1px solid #c9a961;
+      aspect-ratio: 16/9;
+    }
+    
+    /* Pricing card */
+    .pricing-card {
+      background: #252525;
+      border: 1px solid #3a3a3a;
+      transition: all 0.4s ease;
+      position: relative;
+    }
+    
+    .pricing-card:hover {
+      border-color: #c9a961;
+      box-shadow: 0 20px 40px rgba(201, 169, 97, 0.15);
+      transform: translateY(-4px);
+    }
+    
+    .pricing-card.featured {
+      border: 2px solid #c9a961;
+      background: linear-gradient(135deg, #2a2a2a 0%, #1f1f1f 100%);
+    }
+    
+    /* SEO-friendly text */
+    h1, h2, h3 { font-family: 'Crimson Text', serif; font-weight: 400; letter-spacing: -0.01em; }
+    
+    .container-max { max-width: 1200px; margin: 0 auto; }
+    
+    @media (max-width: 768px) {
+      .hero-visual { aspect-ratio: 4/5; }
+      h1 { font-size: 2.5rem; line-height: 1.1; }
+    }
+  </style>
+  <style>body { box-sizing: border-box; }</style>
+  <script src="https://cdn.tailwindcss.com/3.4.17" type="text/javascript"></script>
+  <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
+ </head>
+ <body class="h-full w-full overflow-auto gradient-dark"><!-- HEADER / NAVIGATION -->
+  <header class="sticky top-0 z-50 backdrop-blur-md bg-black/80 border-b border-gold-accent/20">
+   <div class="container-max px-6 py-4 flex justify-between items-center">
+    <h1 class="luxury-serif text-2xl gold-accent">LUXE LENS</h1>
+    <nav class="luxury-sans text-sm space-x-6 hidden md:flex"><a href="#services" class="ivory hover:gold-accent transition">Services</a> <a href="#pricing" class="ivory hover:gold-accent transition">Pricing</a> <a href="#contact" class="ivory hover:gold-accent transition">Contact</a>
+    </nav><button class="md:hidden" id="mobile-menu-btn"> <i data-lucide="menu" class="gold-accent" style="width: 24px; height: 24px;"></i> </button>
+   </div>
+  </header><!-- HERO SECTION -->
+  <section class="hero-section pt-16 pb-12 px-6">
+   <div class="container-max">
+    <div class="grid md:grid-cols-2 gap-12 items-center"><!-- Hero Text -->
+     <div class="space-y-6">
+      <div class="luxury-sans text-sm gold-accent letter-spacing animate-fade-in stagger-1">
+       NEW JERSEY EDITORIAL STUDIO
+      </div>
+      <h2 class="luxury-serif text-5xl md:text-6xl ivory leading-tight animate-fade-in-up stagger-2">Milestone Moments Told in Editorial Light</h2>
+      <p class="text-lg luxury-serif text-gray-300 animate-fade-in-up stagger-3 leading-relaxed">We specialize in capturing the emotional essence of your most significant moments—senior portraits, prom nights, and graduation days—with the cinematic sophistication of editorial photography.</p>
+      <div class="pt-6 space-y-4 animate-fade-in-up stagger-3"><button class="luxury-btn w-full md:w-auto" id="view-collections-btn">View Collections</button>
+       <p class="luxury-sans text-xs gold-accent">✓ Emmy Award Recommended Studio</p>
+      </div>
+     </div><!-- Hero Visual -->
+     <div class="animate-fade-in stagger-1">
+      <div class="hero-visual flex items-center justify-center">
+       <div class="text-center"><i data-lucide="camera" class="gold-accent mx-auto" style="width: 64px; height: 64px; opacity: 0.3;"></i>
+        <p class="luxury-sans text-gold-accent text-sm mt-4 opacity-60">Editorial Portfolio</p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section><!-- SERVICES SECTION -->
+  <section id="services" class="py-20 px-6">
+   <div class="container-max">
+    <div class="text-center mb-16">
+     <h3 class="luxury-serif text-4xl ivory mb-4">Our Specialties</h3>
+     <div class="divider-luxury"></div>
+    </div>
+    <div class="grid md:grid-cols-3 gap-8"><!-- Service 1: Senior Portraits -->
+     <div class="text-center animate-fade-in-up stagger-1">
+      <div class="mb-6"><i data-lucide="sparkles" class="gold-accent mx-auto" style="width: 48px; height: 48px;"></i>
+      </div>
+      <h4 class="luxury-serif text-2xl ivory mb-3">Senior Portraits</h4>
+      <p class="luxury-serif text-gray-300 leading-relaxed mb-4">Authentic, editorial-style portraits that capture your unique personality and mark this transformative year. SEO optimized for <strong>senior photography NJ</strong>.</p>
+      <p class="luxury-sans text-sm gold-accent">Starting at $200</p>
+     </div><!-- Service 2: Prom Photography -->
+     <div class="text-center animate-fade-in-up stagger-2">
+      <div class="mb-6"><i data-lucide="heart" class="nude-pink mx-auto" style="width: 48px; height: 48px;"></i>
+      </div>
+      <h4 class="luxury-serif text-2xl ivory mb-3">Prom Photography</h4>
+      <p class="luxury-serif text-gray-300 leading-relaxed mb-4">Cinematic coverage of your prom night with editorial storytelling. Trending for <strong>prom photoshoot New Jersey</strong> moments.</p>
+      <p class="luxury-sans text-sm gold-accent">Starting at $300</p>
+     </div><!-- Service 3: Graduation Sessions -->
+     <div class="text-center animate-fade-in-up stagger-3">
+      <div class="mb-6"><i data-lucide="award" class="ivory mx-auto" style="width: 48px; height: 48px;"></i>
+      </div>
+      <h4 class="luxury-serif text-2xl ivory mb-3">Graduation Sessions</h4>
+      <p class="luxury-serif text-gray-300 leading-relaxed mb-4">Celebrate your achievement with sophisticated editorial portraits. Ranked for <strong>college graduation photos NJ</strong>.</p>
+      <p class="luxury-sans text-sm gold-accent">Starting at $250</p>
+     </div>
+    </div>
+   </div>
+  </section><!-- MESSAGING SECTION (Emotional Appeal) -->
+  <section class="py-16 px-6 border-t border-gold-accent/20">
+   <div class="container-max max-w-2xl mx-auto text-center">
+    <h3 class="luxury-serif text-3xl ivory mb-6">Why Your Memories Matter</h3>
+    <p class="luxury-serif text-lg text-gray-300 leading-relaxed">These are the moments that define your story. Your senior year. Your prom night. Your graduation day. We believe every student deserves editorial-quality photography that honors the significance of who they are and who they're becoming. Premium doesn't mean untouchable—it means intentional, beautiful, and authentically yours.</p>
+   </div>
+  </section><!-- PRICING SECTION -->
+  <section id="pricing" class="py-20 px-6">
+   <div class="container-max">
+    <div class="text-center mb-16">
+     <h3 class="luxury-serif text-4xl ivory mb-2">Investment in Your Memories</h3>
+     <p class="luxury-serif text-gray-400 text-lg">Transparent pricing for every milestone</p>
+     <div class="divider-luxury"></div>
+    </div>
+    <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto"><!-- ESSENTIAL -->
+     <div class="pricing-card p-8 rounded-lg animate-fade-in-up stagger-1">
+      <div class="luxury-sans text-xs gold-accent mb-2 tracking-widest">
+       ESSENTIAL
+      </div>
+      <div class="flex items-baseline mb-6"><span class="text-4xl ivory font-light">$200</span> <span class="luxury-sans text-sm text-gray-400 ml-2">per session</span>
+      </div>
+      <ul class="space-y-3 mb-8 text-sm text-gray-300">
+       <li class="flex items-start"><i data-lucide="check" class="gold-accent mr-2 flex-shrink-0" style="width: 16px; height: 16px;"></i> <span>2-hour session</span></li>
+       <li class="flex items-start"><i data-lucide="check" class="gold-accent mr-2 flex-shrink-0" style="width: 16px; height: 16px;"></i> <span>50+ edited images</span></li>
+       <li class="flex items-start"><i data-lucide="check" class="gold-accent mr-2 flex-shrink-0" style="width: 16px; height: 16px;"></i> <span>Digital gallery</span></li>
+       <li class="flex items-start"><i data-lucide="check" class="gold-accent mr-2 flex-shrink-0" style="width: 16px; height: 16px;"></i> <span>One location</span></li>
+      </ul><button class="luxury-btn luxury-btn-outlined w-full">Select Package</button>
+     </div><!-- SIGNATURE (Featured) -->
+     <div class="pricing-card featured p-8 rounded-lg animate-fade-in-up stagger-2 md:scale-105">
+      <div class="absolute -top-4 left-1/2 -translate-x-1/2 luxury-sans text-xs gold-accent bg-black px-4 py-1 border border-gold-accent/40 rounded-full">
+       MOST POPULAR
+      </div>
+      <div class="luxury-sans text-xs gold-accent mb-2 tracking-widest">
+       SIGNATURE
+      </div>
+      <div class="flex items-baseline mb-6"><span class="text-4xl ivory font-light">$500</span> <span class="luxury-sans text-sm text-gray-400 ml-2">per session</span>
+      </div>
+      <ul class="space-y-3 mb-8 text-sm text-gray-300">
+       <li class="flex items-start"><i data-lucide="check" class="gold-accent mr-2 flex-shrink-0" style="width: 16px; height: 16px;"></i> <span>4-hour session</span></li>
+       <li class="flex items-start"><i data-lucide="check" class="gold-accent mr-2 flex-shrink-0" style="width: 16px; height: 16px;"></i> <span>150+ edited images</span></li>
+       <li class="flex items-start"><i data-lucide="check" class="gold-accent mr-2 flex-shrink-0" style="width: 16px; height: 16px;"></i> <span>Luxury album</span></li>
+       <li class="flex items-start"><i data-lucide="check" class="gold-accent mr-2 flex-shrink-0" style="width: 16px; height: 16px;"></i> <span>Multiple locations</span></li>
+       <li class="flex items-start"><i data-lucide="check" class="gold-accent mr-2 flex-shrink-0" style="width: 16px; height: 16px;"></i> <span>Styling consultation</span></li>
+      </ul><button class="luxury-btn w-full">Select Package</button>
+     </div><!-- LUXURY -->
+     <div class="pricing-card p-8 rounded-lg animate-fade-in-up stagger-3">
+      <div class="luxury-sans text-xs gold-accent mb-2 tracking-widest">
+       LUXURY
+      </div>
+      <div class="flex items-baseline mb-6"><span class="text-4xl ivory font-light">$1,200</span> <span class="luxury-sans text-sm text-gray-400 ml-2">per session</span>
+      </div>
+      <ul class="space-y-3 mb-8 text-sm text-gray-300">
+       <li class="flex items-start"><i data-lucide="check" class="gold-accent mr-2 flex-shrink-0" style="width: 16px; height: 16px;"></i> <span>8-hour day-of coverage</span></li>
+       <li class="flex items-start"><i data-lucide="check" class="gold-accent mr-2 flex-shrink-0" style="width: 16px; height: 16px;"></i> <span>300+ edited images</span></li>
+       <li class="flex items-start"><i data-lucide="check" class="gold-accent mr-2 flex-shrink-0" style="width: 16px; height: 16px;"></i> <span>Premium leather album</span></li>
+       <li class="flex items-start"><i data-lucide="check" class="gold-accent mr-2 flex-shrink-0" style="width: 16px; height: 16px;"></i> <span>Unlimited locations</span></li>
+       <li class="flex items-start"><i data-lucide="check" class="gold-accent mr-2 flex-shrink-0" style="width: 16px; height: 16px;"></i> <span>Professional hair/makeup</span></li>
+      </ul><button class="luxury-btn luxury-btn-outlined w-full">Select Package</button>
+     </div>
+    </div>
+   </div>
+  </section><!-- ADD-ONS SECTION -->
+  <section class="py-16 px-6 bg-gradient-to-b from-black/30 to-black/60">
+   <div class="container-max">
+    <h3 class="luxury-serif text-3xl ivory text-center mb-12">Enhance Your Experience</h3>
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+     <div class="border border-gold-accent/30 p-6 rounded-lg hover:border-gold-accent transition">
+      <h4 class="luxury-serif text-lg gold-accent mb-2">Professional Headshots</h4>
+      <p class="text-sm text-gray-400 mb-3">Perfect for LinkedIn &amp; college profiles</p>
+      <p class="luxury-sans text-gold-accent font-semibold">+$150</p>
+     </div>
+     <div class="border border-gold-accent/30 p-6 rounded-lg hover:border-gold-accent transition">
+      <h4 class="luxury-serif text-lg gold-accent mb-2">Print Package</h4>
+      <p class="text-sm text-gray-400 mb-3">12x16 archival prints (set of 3)</p>
+      <p class="luxury-sans text-gold-accent font-semibold">+$200</p>
+     </div>
+     <div class="border border-gold-accent/30 p-6 rounded-lg hover:border-gold-accent transition">
+      <h4 class="luxury-serif text-lg gold-accent mb-2">Cap &amp; Gown Upgrade</h4>
+      <p class="text-sm text-gray-400 mb-3">Professional styling &amp; positioning</p>
+      <p class="luxury-sans text-gold-accent font-semibold">+$75</p>
+     </div>
+     <div class="border border-gold-accent/30 p-6 rounded-lg hover:border-gold-accent transition">
+      <h4 class="luxury-serif text-lg gold-accent mb-2">Video Highlight Reel</h4>
+      <p class="text-sm text-gray-400 mb-3">3-minute edited cinematic video</p>
+      <p class="luxury-sans text-gold-accent font-semibold">+$250</p>
+     </div>
+    </div>
+   </div>
+  </section><!-- CTA SECTION -->
+  <section class="py-16 px-6">
+   <div class="container-max max-w-2xl mx-auto text-center space-y-6">
+    <h3 class="luxury-serif text-4xl ivory">Ready to Preserve Your Moment?</h3>
+    <p class="luxury-serif text-lg text-gray-300">Let's create something beautiful together. Available for bookings year-round across New Jersey.</p><button class="luxury-btn" id="book-now-btn">Book Your Session</button>
+   </div>
+  </section><!-- CONTACT SECTION -->
+  <section id="contact" class="py-20 px-6 border-t border-gold-accent/20">
+   <div class="container-max max-w-2xl mx-auto">
+    <h3 class="luxury-serif text-3xl ivory text-center mb-12">Get in Touch</h3>
+    <div class="grid md:grid-cols-2 gap-8 mb-12">
+     <div class="text-center"><i data-lucide="mail" class="gold-accent mx-auto mb-4" style="width: 32px; height: 32px;"></i>
+      <p class="luxury-sans text-sm gold-accent mb-2">EMAIL</p><a href="mailto:hello@luxelens.nj" class="ivory hover:gold-accent transition luxury-serif">hello@luxelens.nj</a>
+     </div>
+     <div class="text-center"><i data-lucide="phone" class="gold-accent mx-auto mb-4" style="width: 32px; height: 32px;"></i>
+      <p class="luxury-sans text-sm gold-accent mb-2">PHONE</p><a href="tel:+17085551234" class="ivory hover:gold-accent transition luxury-serif">(708) 555-1234</a>
+     </div>
+    </div>
+    <p class="luxury-sans text-xs text-gray-500 text-center">✓ Based in New Jersey | Serving clients nationwide | Specializing in senior photography NJ, prom photoshoots New Jersey &amp; college graduation photos NJ</p>
+   </div>
+  </section><!-- FOOTER -->
+  <footer class="border-t border-gold-accent/20 py-8 px-6">
+   <div class="container-max text-center luxury-sans text-xs text-gray-500">
+    <p>© 2024 Luxe Lens Editorial Photography. All rights reserved.</p>
+   </div>
+  </footer>
+  <script>
+    // Initialize Lucide icons
+    lucide.createIcons();
+    
+    // Initialize Element SDK
+    const defaultConfig = {
+      brand_name: 'LUXE LENS',
+      hero_headline: 'Milestone Moments Told in Editorial Light',
+      contact_email: 'hello@luxelens.nj',
+      contact_phone: '(708) 555-1234'
+    };
+
+    const elementConfig = { ...defaultConfig };
+
+    window.elementSdk.init({
+      defaultConfig,
+      onConfigChange: async (config) => {
+        // Update brand name in header
+        const brandEl = document.querySelector('header h1');
+        if (brandEl) brandEl.textContent = config.brand_name || defaultConfig.brand_name;
+        
+        // Update hero headline
+        document.querySelectorAll('.hero-headline').forEach(el => {
+          el.textContent = config.hero_headline || defaultConfig.hero_headline;
+        });
+        
+        // Update contact info
+        const emailLink = document.querySelector('a[href^="mailto:"]');
+        if (emailLink) {
+          emailLink.href = `mailto:${config.contact_email || defaultConfig.contact_email}`;
+          emailLink.textContent = config.contact_email || defaultConfig.contact_email;
+        }
+        
+        const phoneLink = document.querySelector('a[href^="tel:"]');
+        if (phoneLink) {
+          phoneLink.href = `tel:+${(config.contact_phone || defaultConfig.contact_phone).replace(/\D/g, '')}`;
+          phoneLink.textContent = config.contact_phone || defaultConfig.contact_phone;
+        }
+      },
+      mapToCapabilities: (config) => ({
+        recolorables: [],
+        borderables: [],
+        fontEditable: undefined,
+        fontSizeable: undefined
+      }),
+      mapToEditPanelValues: (config) => new Map([
+        ['brand_name', config.brand_name || defaultConfig.brand_name],
+        ['hero_headline', config.hero_headline || defaultConfig.hero_headline],
+        ['contact_email', config.contact_email || defaultConfig.contact_email],
+        ['contact_phone', config.contact_phone || defaultConfig.contact_phone]
+      ])
+    });
+
+    // Button interactions
+    document.getElementById('view-collections-btn')?.addEventListener('click', () => {
+      document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' });
+    });
+    
+    document.getElementById('book-now-btn')?.addEventListener('click', () => {
+      document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+    });
+    
+    // All pricing buttons
+    document.querySelectorAll('.luxury-btn').forEach(btn => {
+      btn.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9f634a79e7d3cdf0',t:'MTc3Nzg1MzUxNS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
